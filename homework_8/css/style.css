@@ -1,0 +1,341 @@
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* MOBILE */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: 700;
+}
+
+.header {
+    background-color: #1a1915;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    height: 540px;
+    margin: 0 auto ;
+    width: 320px;
+}
+
+
+.container {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 120px;
+}
+
+.button-logo-wrapper {
+    margin-bottom: 40px;
+}
+
+.button-login {
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: rgba(26, 25, 21, 0);
+    margin-right: 20px;
+}
+
+.button-signup {
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(26, 25, 21, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.logo {
+    text-decoration: none;
+    display:block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+  
+.header-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.header-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    width: 220px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.header-button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff4e50;
+    border: none;
+    border-radius: 25px;
+    padding: 16px 45px;
+    margin: 0 auto;
+    display: block;
+}
+
+.partners {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.partners-title {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
+
+.partners-list {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+
+
+.partners-list-item:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.partners-list-item-img {
+    margin: 0 auto;
+    display: block;
+}
+
+.img-wrapper{
+    position: relative;
+    display: block;
+    width: 121px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.img-wrapper-red::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ff4e50;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-image: url(../img/icon-tv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.img-wrapper-green::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #1cd7ad;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-image: url(../img/icon-cup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.img-wrapper-yellow::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ffa507;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-image: url(../img/icon-flask.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.img-wrapper-blue::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #4e73db;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-image: url(../img/icon-telegram.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+.partners-list-item-name {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.partners-list-item-text {
+    font-family: "Roboto" , sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.partners-button {
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #ff4e50;
+    border-radius: 25px;
+    padding: 11px 69px;
+    margin: 0 auto;
+    display: block;
+    color: #ff4e50;
+    margin-bottom: 57px;
+}
+
+/*  TABLET */
+
+@media (min-width:748px) {
+    .header {
+        background-image: url(../img/background-tablet.png);
+        height: 700px;
+        width: 768px;
+    }
+    
+    .container {
+        width: 660px;
+        margin: 0 auto;
+    }
+    .button-logo-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding-top: 40px;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    .buttons {
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .logo {
+        margin: 0px;
+    }
+
+    .header-title {
+        font-size: 52px;
+        width: 504px;
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+    
+    .header-text {
+        font-size: 24px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .header-button {
+        padding: 12px 20px;
+    }
+
+    .partners {
+        width: 768px;
+    }
+
+    .partners-title {
+        margin-bottom: 40px;
+    }
+
+    .partners-list {
+        width: 492px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .partners-list-item {
+        display: inline-block;
+    }
+
+    .partners-button {
+        padding: 11px 25px;
+    }
+
+}
+
+/* DESKTOP */
+
+@media (min-width:960px) {
+    .header {
+        background-image: url(../img/background-desktop.png);
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 940px;
+        margin: 0 auto;
+    }
+    
+    .partners {
+        width: 100%;
+        max-width: 1440px;
+    }
+
+    .partners-list {
+        width: 100%;
+    }
+
+}

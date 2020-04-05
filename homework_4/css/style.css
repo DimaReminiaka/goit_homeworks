@@ -1,3 +1,50 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url('../fonts/open-sans-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* open-sans-600 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+         url('../fonts/open-sans-v17-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v17-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+         url('../fonts/open-sans-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'),
+         url('../fonts/roboto-v20-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }  
+
 body {
     box-sizing: content-box;
 }
@@ -75,7 +122,7 @@ body {
     text-transform: uppercase;
     color:#515151;
     text-align: center;
-    margin: 0 0 120 0;
+    margin: 0px 0px 120px 0px;
 }
 
 .products-title:after{
@@ -198,7 +245,7 @@ ul{
 .blog-title-text{
     margin-bottom: 20px;
     font-size: 18px;
-    font-family: "OpenSans";
+    font-family: "Open Sans" , sans-serif;
     color: rgb(85, 82, 82);
     font-weight: 700;
 }
@@ -214,18 +261,17 @@ ul{
 
 .blog-text{
     font-size: 14px;
-    font-family: "OpenSans";
+    font-family: "Open Sans" , sans-serif;
     color: rgb(85, 82, 82);
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 .blog-link{
     display: block;
     width: 160px;
-    height: 50px;
+    /* height: 50px; */
     margin: 0;
-    padding: 0;
-    padding-top: 15px;
+    padding: 12px 0px 12px;
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -235,4 +281,19 @@ ul{
     color: rgb(255, 255, 255);
     font-weight: 300;
     line-height: 1.625;
+    border-radius: 3px;
+    
 }
+
+
+.Rectangle_36 {
+    border-radius: 3px;
+    background-color: rgb(78, 198, 171);
+    position: absolute;
+    left: 642px;
+    top: 1705px;
+    width: 160px;
+    height: 51px;
+    z-index: 16;
+  }
+  
