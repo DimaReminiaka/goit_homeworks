@@ -1,0 +1,308 @@
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    background-color: #1a1915;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: 700;
+    max-width: 320px;
+}
+
+.buttons {
+    margin: 0 auto;
+    width: max-content;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.buttons-login {
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+.buttons-signup {
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.logo {
+    text-decoration: none;
+    display:block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+}
+
+.header-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    width: 220px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.header-button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff4e50;
+    border: none;
+    border-radius: 25px;
+    padding: 16px 45px;
+    margin: 0 auto;
+    display: block;
+}
+
+.main {
+    max-width: 320px;
+    margin: 0 auto;
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: 700;
+}
+
+.mb85 {
+    margin-bottom: 85px;
+}
+
+.main-title {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.partners-list-item:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.partners-list-item-img {
+    margin: 0 auto;
+    display: block;
+}
+
+.img-wrapper{
+    position: relative;
+    display: block;
+    width: 121px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.img-wrapper-red::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ff4e50;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-image: url(../img/icon-tv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.img-wrapper-green::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #1cd7ad;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-image: url(../img/icon-cup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.img-wrapper-yellow::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ffa507;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-image: url(../img/icon-flask.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.img-wrapper-blue::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #4e73db;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-image: url(../img/icon-telegram.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+.partners-list-item-name {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.partners-list-item-text {
+    font-family: "Roboto" , sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.partners-button {
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #ff4e50;
+    border-radius: 25px;
+    padding: 11px 69px;
+    margin: 0 auto;
+    display: block;
+    color: #ff4e50;
+    margin-bottom: 57px;
+}
+
+ @media (min-width:768px) {
+     .header {
+         max-width: 768px;
+         background-image: url(../img/background-tablet.png);
+     }
+
+     .buttons {
+         margin: 0;
+     }
+
+     .logo {
+         margin-bottom: 0px;
+     }
+
+     .mt40 {
+         margin-top: 40px;
+     }
+
+     .mb150 {
+        margin-bottom: 150px;
+    }
+
+    .header-title {
+        font-size: 46px;
+        margin-bottom: 40px;
+    }
+
+    .header-text {
+        width: auto;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .header-button {
+        padding: 12px 20px;
+    }
+
+    .mb215 {
+        margin-bottom: 215px;
+    }
+
+    .main {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .mb40 {
+        margin-bottom: 40px;
+    }
+
+    .partners-button {
+        padding: 11px 25px;
+    }
+ }
+
+ @media (min-width:960px) {
+     .header {
+         background-image: url(../img/background-desktop.png);
+         max-width: 1440px;
+     }
+
+     .main {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+ }
