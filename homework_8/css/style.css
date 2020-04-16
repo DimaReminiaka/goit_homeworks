@@ -27,6 +27,10 @@
     font-weight: 700;
 }
 
+button {
+    cursor: pointer;
+}
+
 .header {
     background-color: #1a1915;
     background-image: url(../img/background.png);
@@ -50,6 +54,7 @@
 
 .button-logo-wrapper {
     margin-bottom: 40px;
+    margin-top: 3px;
 }
 
 .button-login {
@@ -58,17 +63,31 @@
     border: none;
     background-color: rgba(26, 25, 21, 0);
     margin-right: 20px;
+    padding: 10px 15px;
 }
+
+.button-login:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.button-signup:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
 
 .button-signup {
     font-size: 14px;
     color: #fff;
     background-color: rgba(26, 25, 21, 0);
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border: none;
     padding: 10px 15px;
+    
 }
 
 .logo {

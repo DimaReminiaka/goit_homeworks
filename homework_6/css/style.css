@@ -116,6 +116,7 @@
 .title-first {
     font-family: "Kaushan Script";
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .title-second {
@@ -306,6 +307,7 @@
 
 .team-item-content:hover {
     transform: translate(-10px, -10px);
+    transition-duration: 1s;
 }
 
 .team-item-content:hover .team-overlay {
@@ -399,6 +401,7 @@
     border: none;
     color: #ffffff;
     display: inline-block;
+    cursor: pointer;
 }
 
 .link-link {

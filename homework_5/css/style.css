@@ -116,6 +116,7 @@ body {
 .slider {
     background-image: url(../img/background.jpg);
     height: 600px;
+    background-size: cover;
 }
 
 .slider-buttons {
@@ -311,15 +312,20 @@ body {
 }
 
 .icon-truck {
-    background-image: url(../img/truck.png) ;
-    background-position: left;
     width: 166px;
     background-color: #323232;
-    font-family:"OpenSans";
+    font-family:"Open Sans";
     font-size: 14px;
     font-weight: normal;
     color: #ffffff;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.icon-truck-img {
+    margin-left: 12px;
+    margin-right: 14px;
 }
 
 .overlay-icon:hover {
