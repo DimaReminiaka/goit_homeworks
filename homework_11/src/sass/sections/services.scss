@@ -1,0 +1,139 @@
+/* SERVICES */
+
+.services {
+    width: 1200px;
+    margin: auto;
+
+    &__title::after {
+        display: flex;
+        content: "";
+        height: 3px;
+        width: 60px;
+        background-color: #f38181;
+        margin-top: 40px;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 80px;
+
+        &-item {
+            width: 333px;
+            padding-left: 60px;
+            margin-bottom: 100px;
+            position: relative;
+
+            &:nth-of-type(n+3){
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 280px;
+    margin: 0 auto;
+
+    &-first {
+        font-family: "Kaushan Script";
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    &-second {
+        font-family: "Montserrat" , sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+
+.item {
+
+    &-title {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    &-text {
+        font-family: "Montserrat" ;
+        font-size: 15px;
+        font-weight: 400;
+        color: #999999;
+    }
+}
+
+
+.list-item {
+
+    &-photography::before {
+        display: block;
+        content: "";
+        background-image: url(../images/icons/photography.png);
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: 0px;
+    }
+
+    &-webdesign::before {
+        display: block;
+        content: "";
+        background-image: url(../images/icons/webdesign.png);
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: 0px;
+    }
+
+    &-creativity::before {
+        display: block;
+        content: "";
+        background-image: url(../images/icons/creativity.png);
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: 0px;
+    }
+
+    &seo::before {
+        display: block;
+        content: "";
+        background-image: url(../images/icons/seo.png);
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: 0px;
+    }
+
+    &-html::before {
+        display: block;
+        content: "";
+        background-image: url(../images/icons/csshtml.png);
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: 0px;
+    }
+
+    &-digital::before {
+        display: block;
+        content: "";
+        background-image: url(../images/icons/digital.png);
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: 0px;
+    }
+}
+

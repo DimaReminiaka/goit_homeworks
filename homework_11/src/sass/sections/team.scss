@@ -1,0 +1,123 @@
+/* TEAM */
+
+.team {
+    width: 1200px;
+    margin: auto; 
+
+    &__text {
+        width: 950px;
+        margin: 50px auto 100px;
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 15px;
+        font-weight: 400;
+        color: #999999;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin-bottom: 85px;
+
+        &-item:hover{
+
+            .team__item-photo {
+                transform: translate(-10px, -10px);
+                transition-duration: 1s;
+            }
+
+            .team__item-overlay {
+                opacity: 1;
+            }
+            
+        }
+    }
+
+    &__item-bgcolor {
+        width: 380px;
+        height: 470px;
+        background-color: #95e1d3;
+    }
+
+    &__item-photo {
+        display: block;
+        width: 380px;
+        height: 470px;
+    }
+
+    &__item-overlay {
+        background-image: linear-gradient( rgba(243,129,129, 0.9) 0%, rgba(252,227,138,0.9) 100%);
+        width: 380px;
+        height: 470px;
+        position: absolute;
+        opacity: 0;
+    }
+
+    &-name {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    &-profession {
+        font-family: "Roboto" , sans-serif;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 300;
+        color: #999999;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+.overlay {
+
+    &-icons__list {
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 380px;
+        height: 470px;
+        position: absolute;
+    }
+
+    &-icons__list-item {
+        width: 55px;
+        height: 55px;
+        background-color: #fce38a;
+        margin-right: 1px;
+
+        &:hover {
+            background-color: $secondary-color;
+
+            .overlay__item-svg {
+                fill: #fce38a;
+            }
+        }        
+    }
+
+    &__item-link {
+        width: 55px;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__item-svg {
+        width: 26px;
+        height: 26px;
+        fill: #f38181;
+    }
+}
+
+
+
+
+
