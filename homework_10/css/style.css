@@ -53,7 +53,7 @@
 }
 /* HEADER */
 .header {
-    background-image: url(../img/bg-image.jpg);
+    background-image: url(../images/bg-image.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 
 @media (min-resolution: 192dpi) {
     .header {
-        background-image: url(../img/bg-image@2x.jpg);
+        background-image: url(../images/bg-image@2x.jpg);
     }
 }
 
@@ -234,7 +234,7 @@
 .list__item-photography::before {
     display: block;
     content: "";
-    background-image: url(../img/icons/photography.png);
+    background-image: url(../images/icons/photography.png);
     width: 32px;
     height: 32px;
     position: absolute;
@@ -244,7 +244,7 @@
 .list__item-webdesign::before {
     display: block;
     content: "";
-    background-image: url(../img/icons/webdesign.png);
+    background-image: url(../images/icons/webdesign.png);
     width: 32px;
     height: 32px;
     position: absolute;
@@ -254,7 +254,7 @@
 .list__item-creativity::before {
     display: block;
     content: "";
-    background-image: url(../img/icons/creativity.png);
+    background-image: url(../images/icons/creativity.png);
     width: 32px;
     height: 32px;
     position: absolute;
@@ -264,7 +264,7 @@
 .list__item-seo::before {
     display: block;
     content: "";
-    background-image: url(../img/icons/seo.png);
+    background-image: url(../images/icons/seo.png);
     width: 32px;
     height: 32px;
     position: absolute;
@@ -274,7 +274,7 @@
 .list__item-html::before {
     display: block;
     content: "";
-    background-image: url(../img/icons/csshtml.png);
+    background-image: url(../images/icons/csshtml.png);
     width: 32px;
     height: 32px;
     position: absolute;
@@ -284,7 +284,7 @@
 .list__item-digital::before {
     display: block;
     content: "";
-    background-image: url(../img/icons/digital.png);
+    background-image: url(../images/icons/digital.png);
     width: 32px;
     height: 32px;
     position: absolute;
